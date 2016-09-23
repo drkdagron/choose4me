@@ -1,0 +1,75 @@
+
+@media all and (orientation:portrait)
+{
+    .optionText
+    {
+        font-size: 14;
+    }
+}
+@media all and (orientation:landscape)
+{
+    .optionText
+    {
+        font-size: 20;
+    }
+}
+
+.titleFont {
+    font-size: 80;
+    padding-top: 50px;
+    text-align: center;
+    color: #333333;
+}
+.background {
+    background-color: #2AF5FF;
+}
+.titleHeading {
+    font-size:40;
+    padding-top:60px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333333;
+}
+.card-placement
+{
+    width:90%;
+    margin-top: 50;
+    margin-left: 5%;
+}
+.option
+{
+    font-size: 30;
+    text-align: center;
+    margin-top:20;
+}
+.tablePlacement
+{
+    width:90%;
+    table-layout: fixed;
+    margin-left:5%;
+    margin-bottom: 40px;
+}
+
+.entry
+{
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+}
+.chosenOverlay
+{
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+}
+.buttonBar
+{
+    width:100%;
+    height:20%;
+    margin-top:80%;
+
+}
